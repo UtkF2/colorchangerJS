@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    transition: background-color 0.5s;
+}
+#incol {
+    padding: 4px;
+    border: 2px solid;
+}
+#changeColorButton {
+    padding: 4px;
+    margin: 9px;
+    width: 170px;
+}
+#changeColorButton:hover{
+    background-color:aqua;
+}
